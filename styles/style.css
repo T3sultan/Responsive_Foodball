@@ -1,0 +1,83 @@
+  
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common style or utilites */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: #2D25A0;
+}
+
+/* web part 1 */
+
+/* .container{
+    width: 1440px;
+    height: 3750px;
+} */
+.mainHeader{
+    display: flex;    
+    justify-content: space-between;
+    
+    top: 42px;
+    margin-left: 156px;
+    margin-right: 124px;
+    align-items: center;
+    margin-top: 30px;
+  
+}
+.header{
+    color: #FFFFFF;
+    
+}
+.subHeader{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 20px;
+}
+.fa-sign-in-alt{
+    width: 24px;
+    height: 24px;
+    color: #FFFFFF;
+
+}
+.iconLogin{
+    background-color: #E02C6D;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    padding: 10px;
+}
+/* .subHeader1{
+   
+} */
+p{
+    font-weight: bold;
+    font-size: 64px;
+    color: #FFFFFF;
+}
+.watchlive{
+    background-color: #E02C6D;
+    width: 168px;
+    height: 44px;
+    color: #FFFFFF;
+    
+}
+.bannerImg img{
+    width: 556.01px;
+height: 438px;
+}
+.player{
+    display: flex;    
+    justify-content: space-between;
+    margin-left: 156px;
+    margin-right: 140.09px;
+    margin-top: 49px;
+    margin-bottom: 85px;
+}
